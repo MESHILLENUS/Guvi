@@ -47,7 +47,8 @@ anon_func("new param");
 
 // Arrow function
 // we dont need to have any return keyword in single line
-let arrow_func = (a, b) => a + b;
+let arrow_func = (a, b) =>   a + b;
+
 console.log("function value", arrow_func(30, 10)); //20
 
 //IIFE(Immediatly invoked function)
