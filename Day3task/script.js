@@ -1,3 +1,15 @@
+//compare 2 json
+let obj1={name : "Person 1", age : 2}
+let obj2={age : 5, name : "Person 1"}
+
+obj1= Object.keys(obj1).sort()
+obj2= Object.keys(obj2).sort()
+
+let str1 = JSON.stringify(obj1)
+let str2 = JSON.stringify(obj2)
+
+console.log(str1===str2)
+
 //Display all the country's Flags,name ,regions , sub_regions,populations;
 
 let xhr = new XMLHttpRequest();
