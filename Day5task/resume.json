@@ -1,0 +1,12 @@
+{
+    "FirstName" : "Meshil",
+    "LastName"  : "Lenus ",
+    "Dob"       : "03.10.2001",
+    "Skills"    : "Web development,html,css,js,python",
+    "Languages" : "tamil,english,telugu",
+    "Certficates": "Web development using Html,Css,Js ,Python and Machine learning ,Cloud computing,Data Analytics and Data Science",
+    "Education" : {"12":"58%",
+                    "10":"78%",
+                    "clg":"7.91"}
+                    
+}
