@@ -1,0 +1,48 @@
+#main-container{
+    height: 500px;
+    border: 3px solid black;
+    margin: 30px;
+    display: grid;
+    /* grid-template-columns: 100px 200px 100px ;
+    grid-template-rows: 100px 300px 100px;
+*/
+grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+place-items: center;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.main-grid-layout{
+    border :5px solid black;
+    height: 600px;
+    margin: 30px;
+    padding: 15px;
+    display: grid;
+    grid-template:
+    "head head head head " 100px
+    "side main main main"  500px;
+
+}
+
+.header{
+    display:grid;
+    place-items: center;
+    background-color: aliceblue;
+    grid-area: head;
+}
+.main{
+    background-color: aqua;
+    grid-area: main;
+
+}
+.sidebar{
+    background-color: cadetblue;
+    grid-area: side;
+}

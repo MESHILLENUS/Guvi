@@ -5,14 +5,14 @@
     flex-direction: row; */
     flex-flow: row wrap;
   
-    /* justify-content: x-axis; */
+    justify-content: x-axis; */
     /* justify-content: center; */
     /* justify-content: space-around; */
     /* justify-content: space-between; */
     /* justify-content: space-between; */
     /* justify-content: end; */
     /* justify-content: start; */
-    /* justify-content: space-between; */
+    /* justify-content: space-between;
     /* warp - align-contemt , nowrap - align-items: ; */
     /* y-axis */
     /* align-content: center; */
